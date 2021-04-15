@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+
+    
+    "HdView":"/components/HdView/HdView",
+    "FtView":"/components/FtView/FtView",
+    "PubTitle":"/components/PubTitle/PubTitle"
+
+  }
+}

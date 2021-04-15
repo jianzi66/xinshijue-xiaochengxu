@@ -1,0 +1,43 @@
+.pubTitle{display: flex; justify-content: space-between; height: 60rpx;align-items: center; }
+.pubTitle .txt{font-size: 40rpx; height: 100%; position: relative; padding-left: 20rpx; margin-bottom: 40rpx;}
+
+
+.pubTitle .txt::before{display: block;width: 8rpx; height: 34rpx; background:#c8020b; content:""; position: absolute; left: 0; top: 50%; margin-top: -15rpx;}
+.pubTitle .more{font-size:34rpx; color:#666;}
+
+
+
+.banner{width: 100%;height: 295rpx;}
+.banner swiper{height: 100%; width: 100%;}
+.banner image{width: 100%; height: 295rpx;}
+
+.major{white-space: nowrap; padding: 30rpx 0;}
+.major .box{text-align: center;width: 165rpx;display: inline-block;}
+.major .pic{width: 100rpx; height: 100rpx;}
+.major .txt{font-size: 26rpx; margin-top: 8rpx;}
+
+/* 学员作品模块 */
+.works{background: #f0f3f8; padding: 90rpx 0 70rpx;}
+.wkMain{display: flex; flex-wrap: wrap; justify-content: space-between;}
+
+.wkMain .box{width: 344rpx; height: 214rpx; margin-bottom: 10rpx; position: relative;}
+
+.wkMain .pic{width: 100%; height: 100%;}
+
+.wkMain .ceng{width: 100%; height: 100%; background: rgba(0,0,0,0.5); position: absolute; top: 0;left: 0;color: #fff;display: flex;flex-direction: column;justify-content: center; align-items: center;padding: 0 20rpx;box-sizing: border-box;text-align: center;}
+
+.wkMain .ceng .tit{font-size: 34rpx;}
+
+.wkMain .ceng .line{width: 50rpx;height: 2rpx; background: #fff; margin: 10rpx 0 20rpx;}
+
+.wkMain .ceng .des{opacity: 0.6 ; text-transform: uppercase; font-size: 24rpx; letter-spacing: 5rpx;}
+
+.dynamic{ padding: 90rpx 0 70rpx;}
+.dyItem{display: flex; padding: 15rpx 0; border: 1rpx dashed #f4f4f4; justify-content: space-between;}
+.dyItem .pic{width: 230rpx ; height: 150rpx;}
+.dyItem .pic image{width: 100%; height: 100%;}
+.dyItem .txt{width: 440rpx; display: flex; flex-direction: column; justify-content: space-between;}
+.dyItem .title{ font-size: 34rpx;}
+.dyItem .info{ font-size: 26rpx; color: #888;}
+.dyItem .info .text{font-size: 22rpx;}
+

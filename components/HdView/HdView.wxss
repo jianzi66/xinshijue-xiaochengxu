@@ -1,0 +1,12 @@
+.header{width: 750rpx; height: 90rpx;
+  /*border:1px solid red*/}
+/**/
+.hdCon{ 
+  display: flex; justify-content:space-between;                   /*align-items:center; 客服图标，不能缩小居中？？？ */
+  height: 100%; padding: 10rpx 26rpx;}
+
+
+.hdCon .logo,.hdCon.kefu{height: 50rpx;}
+.hdCon .hdPic{height: 100%;}  
+.kefu{position: relative; animation: dh linear 1s infinite alternate;}
+.kefu .btn{position: absolute; width: 100%; height: 100%; top:0 ; left: 0; opacity: 0; }
